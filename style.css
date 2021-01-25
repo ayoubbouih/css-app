@@ -16,7 +16,6 @@ html,body{
     transition-duration: 1s;
 }
 #header{
-    position: fixed;
     top: 0%; 
     width: 100%;
     background-color: #707070;
@@ -37,6 +36,9 @@ button:focus {
     z-index:2;
 }
 @media all and (min-width:768px){
+    #header{
+        position: fixed;
+    }
     #logo{
         flex-basis: 100px;
         flex-shrink: 1;
@@ -277,6 +279,7 @@ button:focus {
     background-image: url(arrow.png);
     background-size: 100% 100%;
     border-radius: 50%;
+    margin:0px 10px;
 }
 button#event-left {
     left: 0px;

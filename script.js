@@ -29,6 +29,7 @@ close.addEventListener("click", () =>{
 overlay.addEventListener("click", () =>{
     popup.style.display= "none";
     overlay.style.display = "none";
+    body.style.overflow = "visible";
 });
 /// slider
 events = document.getElementsByClassName("event");

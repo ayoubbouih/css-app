@@ -1,0 +1,59 @@
+#register{
+    margin: 30px auto;
+    width: 60%;
+    box-shadow: 0px 5px 15px -12px;
+    display: flex;
+}
+#register-right{
+    background-color: #707070;
+    border-radius: 50% 0% 0% 50%;
+    position: relative;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+#register-right img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#register-left{
+    padding:20px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#register-left h1{
+    text-align: center;
+}
+.login-inputs{
+    height: 50px;
+    width:100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 20px 0px;
+    border:2px solid #707070;
+    font-size:18px;
+    padding: 10px;
+}
+#login-sign{
+    height: 50px;
+    width:100%;
+    margin-bottom: 20px;
+    background-color: #5CAAD1cb;
+    border-radius: 5px;
+    border:0px;
+    color:white;
+    font-weight: bold;
+}
+@media all and (max-width:768px){
+    #register{
+        width: 100%;
+    }
+    #register-right{
+        display: none;
+    }
+}

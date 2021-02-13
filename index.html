@@ -2,51 +2,22 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSSC</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <!-- popup -->
-        <section id="login-popup">
-            <div id="login-content">
-                <div>
-                    <h1>Login</h1>
-                    <button id="login-close">X</button>
-                </div>
-                <form>
-                    <div class="login-divs">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="login-inputs" placeholder="youremail@email.com">
-                    </div>
-                    <div class="login-divs">
-                        <label for='password'>Password</label>
-                        <input type="password" name="password" id="password" class="login-inputs" placeholder="**********">
-                    </div>
-                    <div class="login-divs">
-                        <button type="submit" id="login-sign">Sign In</button>
-                    </div class="login-divs">
-                    <div class="login-divs" id="login-links">
-                        <span>
-                            <input type="checkbox" name="remember-me" id="remember-me"><label for="remember-me">Remember me</label>
-                        </span>
-                         <a href="#">forgot password?</a>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!-- content -->
         <section id="container">
-            <div id="overlay"></div>
             <div id="header">
                 <div id="navbar">
                     <div id="logo">
-                        <img src="logo.png" id="logo-img">
+                        <a href="index.html"><img src="assets/images/logo.png" id="logo-img"></a>
                     </div>
                     <div id="menu">
                         <ul id="menu-list">
-                            <li class="menu-item"><a href="#events">Events</a></li>
+                            <li class="menu-item"><a href="liste.html">Events</a></li>
                             <li class="menu-item"><a href="#contact">Contact us</a></li>
-                            <li class="menu-item"><a href="#abous">About us</a></li>
-                            <li class="menu-item"><button id="login-open">Login</button></li>
+                            <li class="menu-item"><a href="#about">About us</a></li>
+                            <li class="menu-item"><a href="login.html"><button id="login-open">Login</button></a></li>
                         </ul>
                     </div>
                     <div id="mobile">
@@ -59,14 +30,6 @@
                 </div>
             </div>
             <div id="content">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="1285.000000pt" height="726.000000pt" viewBox="0 0 1285.000000 726.000000" preserveAspectRatio="xMidYMid meet">
-                    <metadata>
-                    Created by potrace 1.16, written by Peter Selinger 2001-2019
-                    </metadata>
-                    <g transform="translate(0.000000,726.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                    <path d="M0 3655 l0 -3605 228 0 c787 1 1659 68 2327 180 1092 183 1951 503 2807 1046 147 93 318 208 951 643 305 208 467 313 712 456 1102 648 2376 991 4115 1110 411 27 640 36 1178 42 l532 6 0 1864 0 1863 -6425 0 -6425 0 0 -3605z"/>
-                    </g>
-                </svg> -->
                 <div id="content-left">
                     <h3>
                         Welcome to<br> 
@@ -74,7 +37,7 @@
                         Students Club
                     </h3>
                     <h5>
-                        Description here
+                        Empowered By innovation
                     </h5>
                     <a href="#"><button id="join-us">Join Us</button></a>
                 </div>
@@ -84,13 +47,11 @@
             </div>
             <a name="events"></a>
             <div id="events-section">
-                <h2>Our Events</h2>
-                <button class="event-arrows" id="event-left"></button>
-                <button class="event-arrows" id="event-right"></button>
+                <h2>Our Events</h2> 
                 <div id="events">
                     <div class="event">
                         <div class="event-poster">
-                            <img src="events2.png" class="event-image">
+                            <img src="assets/images/events2.png" class="event-image">
                             <h5 class="event-name">test 1</h5>
                         </div>
                         <div class="event-details">
@@ -114,15 +75,15 @@
                             </div>
                         </div>
                         <div class="event-speakers">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
                         </div>
                     </div>
                     <div class="event">
                         <div class="event-poster">
-                            <img src="events.png" class="event-image">
+                            <img src="assets/images/events.png" class="event-image">
                             <h5 class="event-name">test 2</h5>
                         </div>
                         <div class="event-details">
@@ -146,15 +107,15 @@
                             </div>
                         </div>
                         <div class="event-speakers">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
                         </div>
                     </div>
                     <div class="event">
                         <div class="event-poster">
-                            <img src="events2.png" class="event-image">
+                            <img src="assets/images/events2.png" class="event-image">
                             <h5 class="event-name">test 3</h5>
                         </div>
                         <div class="event-details">
@@ -178,42 +139,10 @@
                             </div>
                         </div>
                         <div class="event-speakers">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="event-poster">
-                            <img src="events.png" class="event-image">
-                            <h5 class="event-name">test 4</h5>
-                        </div>
-                        <div class="event-details">
-                            <div class="event-date">
-                                <ul>
-                                    <li>Date</li>
-                                    <li>Jan, 22, 2021</li>
-                                </ul>
-                            </div>
-                            <div class="event-location">
-                                <ul>
-                                    <li>Location</li>
-                                    <li>salle 89</li>
-                                </ul>
-                            </div>
-                            <div class="event-duration">
-                                <ul>
-                                    <li>Duration</li>
-                                    <li>2 hours</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="event-speakers">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
-                            <img src="logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
+                            <img src="assets/images/logo.png" class="speakers-thumb">
                         </div>
                     </div>
                 </div>
@@ -252,6 +181,6 @@
             </footer>
         </section>
         
-        <script src="script.js"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
